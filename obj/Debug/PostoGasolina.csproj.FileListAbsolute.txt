@@ -1,0 +1,6 @@
+C:\Users\thiago.novaes\Desktop\Thiago\Programing\Homework - Decisao\PostoGasolina\bin\Debug\PostoGasolina.exe.config
+C:\Users\thiago.novaes\Desktop\Thiago\Programing\Homework - Decisao\PostoGasolina\bin\Debug\PostoGasolina.exe
+C:\Users\thiago.novaes\Desktop\Thiago\Programing\Homework - Decisao\PostoGasolina\bin\Debug\PostoGasolina.pdb
+C:\Users\thiago.novaes\Desktop\Thiago\Programing\Homework - Decisao\PostoGasolina\obj\Debug\PostoGasolina.csprojAssemblyReference.cache
+C:\Users\thiago.novaes\Desktop\Thiago\Programing\Homework - Decisao\PostoGasolina\obj\Debug\PostoGasolina.exe
+C:\Users\thiago.novaes\Desktop\Thiago\Programing\Homework - Decisao\PostoGasolina\obj\Debug\PostoGasolina.pdb
