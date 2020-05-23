@@ -11,7 +11,7 @@ namespace PostoGasolina
         static void Main(string[] args)
         {
             string combustivel;
-            double resultado, litros, valorReal = 0;
+            double litros, valorReal;
 
 
             Console.Write("(A-Alcool ou G-Gasolina) \n \nQual tipo de combustivel o senhor deseja: ");
@@ -19,6 +19,19 @@ namespace PostoGasolina
 
             Console.Write("Quantos litros: ");
             litros = Convert.ToDouble(Console.ReadLine());
+
+            valorReal = SaberCombustivelPreco(combustivel, litros);
+
+            Console.Clear();
+
+            Console.Write("Você pagará R$ " + valorReal);
+            Console.Read();
+        }
+
+        public static double SaberCombustivelPreco(string combustivel, double litros)
+        {
+            double resultado;
+            double valorReal = 0;
 
             if (combustivel == "a" && litros <= 20)
             {
@@ -41,10 +54,7 @@ namespace PostoGasolina
                 valorReal = resultado - resultado * 0.06;
             }
 
-            Console.Clear();
-
-            Console.Write("Você pagará R$ " + valorReal);
-            Console.Read();
+            return valorReal;
         }
     }
 }
